@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="css.style.css" />
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      <link rel = "stylesheet" href="script.js"/>
+      <link href="images/medida.jpg"rel="icon"
+        
+     <script src="calculadora./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./node-modules/jquerry.js/dist/jquerry.min.js"></script>
+<script src="./node-modules/pooper/dist/pooper.min.js"></script>
+<script src="./node-modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+<body>   
+
+
+  </p>     
+      
+    <link rel="stylesheet" href="css.style.css" />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+           <div class="container-fluid">
+            <a class= "display-1" href="#O QUE É IMC">IMC FÁCIL</a>
+            <a class="navbar-brand" id="topo">Sua saúde sob medida </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#topo" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destaques
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#Dicas de saúde">Dicas de saúde</a></li>
+                    <li><a class="dropdown-item" href="#Dicas de Exercícios">Exercícios físicos</a></li>
+                    <li><a class="dropdown-item" href="#Dicas de Alimentação">Alimentação saúdável</a></li>
+                    <li><a class="dropdown-item" href="#Veja a interpretação do IMC">Tabela IMC</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <table class="table table- hover">
+            <thead>
+      
+      <h1></h1>
+           <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/calc.png" class="d-block w-100" alt="Índice de Massa Corporal">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>IMC FÁCIL</h1>
+                <p><strong> Saúde como prioridade</p></strong>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/alimentos.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Alimentação saudável</h5>
+                <p>Tudo o que você precisa para blindar o sistema imunológico.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/exer.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Exercícios Práticos</h5>
+                <p>Ter que ficar em casa não quer dizer que você precisa ficar parado</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>  
+        
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">como é feito o cálculo do IMC?</h5>
+                  <p class="card-text">O Indice de Massa Corporal é calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</p>
+                  <a href="#Calculadora IMC" class="btn btn-primary">Calculadora</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Índices classificatórios do IMC</h5>
+                  <p class="card-text"> De acordo com o resultado é possível saber se seu índice indica magreza, normal, sobrepeso ou obesidade.</p>
+                  <a href="#Veja a interpretação do IMC" class="btn btn-primary">Consultar Tabela</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <p><strong>
+            Cadastre-se para ter acesso a um feedback evolutivo
+          </strong></p>
+          <div class="container">
+          <form class="row g-3">
+              <div class="col-md-12">
+                <label for="inputName" class="form-label">Nome</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <div class="col-md-3">
+                <label for="inputAge" class="form-label">Idade</label>
+                <input type="age" class="form-control" id="inputAge">
+              </div>
+              <div class="col-3">
+                <label for="inputWeight" class="form-label">Peso</label>
+                <input type="text" class="form-control" id="inputWeight" placeholder="50,5 Kg">
+              </div>
+              <div class="col-4">
+                <label for="inputHeight" class="form-label">Altura</label>
+                <input type="text" class="form-control" id="inputHeight" placeholder="1,85 cm">
+              </div>
+              <div class="col-md-6">
+                <label for="inputIMC" class="form-label">IMC</label>
+                <input type="text" class="form-control" id="inputIMC"placeholder="23,8">
+              </div>
+              <div class="col-md-4">
+                <label for="inputSex" class="form-label">Sexo</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Masculino</option>
+                  <option selected>Feminino</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Verificar Dados
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" value=Cadastrar"<a href="view/page.html">Cadastrar</a></button>
+                
+              </div>
+            </form>
+
+            <br>
+            <br/>
+
+          <a class= "display-6" id="O QUE É IMC"><strong>O QUE É IMC?</strong></a>
+     <p>IMC é a sigla para Índice de Massa Corporal, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+     <p> Índice de Massa Corporal é um parâmetro utilizado para saber se o peso está de acordo com a altura, o que pode interferir diretamente na saúde e qualidade de vida da pessoa. </p>
+     <p>O índice é calculado da seguinte maneira: divide-se o peso pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+    <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+
+</div> 
+
+<main>
+   
+<a class="btn btn-primary" href="#topo" role="button">Voltar ao topo</a>
+    <div class="container">
+        <h1 class="py-4 text-center" id="Calculadora IMC">Calculadora IMC</h1>
+                <form name="calculadora_imc">
+            <div class="row">
+
+                <div class="form-group col-lg-6 col-md-6">
+                    <label for="nome">Nome</label>
+                    <input class="form-control" placeholder="Ex: Roberto Carlos" type="text" name="nome" id="nome" required="required">  
+                </div>
+
+                <div class="form-group col-lg-3 col-md-6">
+                    <label for="peso">Peso</label>
+                    <div class="input-group">
+                        <input placeholder="Ex: 80" class="form-control" type="number" step="0.01" min="0,01" max="600" name="peso" id="peso" required="required">
+                        <span class="input-group-addon"> Kg </span>
+                    </div>
+                </div>                
+
+                <div class="form-group col-lg-3 col-md-6">
+                    <label for="altura">Altura</label>
+                    <div class="input-group">
+                        <input placeholder="Ex: 1,75" class="form-control" type="number" step="0.01" min="0,01" max="3" name="altura" id="altura" required="required">
+                        <span class="input-group-addon"> m </span>
+                    </div>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-6">
+                    <label for="mostrar_sexo">Sexo</label>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" name="mostrar_sexo" id="masculino" class="form-check-input"checked>
+                            Masculino
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" name="mostrar_sexo" id="feminino" class="form-check-input">
+                            Feminino
+                        </label>
+                    </div>                            
+                </div>
+                <div class="form-group col-lg-4 col-md-6">
+                      <label for="mostrar_nome">Mostrar condição física</label>
+                      <div class="form-check">
+                         <label class="form-check-label">
+                            <input type="radio" name="mostrar_condição_física" id="mostrar_condição_física" class="form-check-input" value="0" checked>
+                            Sim
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" name="mostrar_condição_física" id="mostrar_condição_física" class="form-check-input" value="1">
+                            Não
+                        </label>
+                    </div>                            
+                </div>
+
+            <input style="cursor:pointer;" class="btn btn-primary" name="calcular_imc" id="calcular_imc" type="submit" value="Calcular IMC">
+            <input id="limpar" style="cursor:pointer;" class="btn btn-secondary" type="reset" value="Limpar">
+
+        </form>
+        
+        <p class="my-4 h5" id="mostrar_imc"></p>
+    </div>
+                     <div class="result" id=mostrar_IMC>
+
+</main>
+<table class="table" id="Veja a interpretação do IMC"><strong>Tabela de interpretação do IMC<strong></td>
+    <thead>
+      <tr>
+        <th scope="col">Índice IMC</th>
+        <th scope="col">Classificação</th>
+        <th scope="col">Obesidade</th>
+  </tr>
+</thead>
+<tbody>
+  
+  <tr>
+      <tr id="result_calc_0">
+          <td>Menor que 18,5</td>
+          <td>Magreza</td>
+          <td Style="text-align: center">0</td>
+        </tr>
+      
+      <tr id="result_calc_0">
+    <td>Menor que 18,5</td>
+    <td>Magreza</td>
+    <td style="text-align: center">0</td>
+  </tr>
+  
+  <tr id="result_calc_1">
+    <td>Entre 18,5 e 24,9</td>
+    <td>Normal</td>
+    <td style="text-align: center">0</td>
+  </tr>
+  
+  <tr id="result_calc_2">
+    <td>Entre 25,0 e 29,9</td>
+    <td>Sobrepeso</td>
+    <td style="text-align: center">I</td>
+  </tr>
+  
+  <tr id="result_calc_3">
+    <td>Entre 30,0 e 39,9</td>
+    <td>Obesidade</td>
+    <td style="text-align: center">II</td>
+  </tr>
+  <tr id="result_calc_4">
+    <td>Maior que 40,0</td>
+    <td>Obesidade Grave</td>
+    <td style="text-align: center">III</td>
+  </tr>
+</tbody>
+</table>
+  <div></div>
+</div>
+</div>
+
+<h1 class="display-1" id="Dicas de saúde"> Dicas de saúde </h1>
+<figure>
+  <div class="text-left">
+<img src="images/cintura.jpg" class="rounded" alt="corpo ideal">
+  <figcaption>
+    Ações que contribuem à saúde.
+  </figcaption>
+</figure>
+        <h1 class="display-6">Mantenha uma alimentação saudável e equilibrada.</h1> 
+  <ul>
+      <li>Pratos simples, como o arroz e feijão, por exemplo, oferecem uma excelente combinação de vitaminas, minerais, fibras e aminoácidos e têm propriedades antioxidantes, que ajudam a retardar a ação do tempo.</li> 
+      <li>Inclua em sua alimentação muitas frutas, legumes e verduras como o brócolis, que é rico em cálcio, potássio, selênio, ácido fólico e ajuda a proteger o organismo contra o câncer de cólon, pulmão e mama.</li>  
+      <li>Diminua seu consumo de açúcar refinado. Além de não trazer nenhum benefício à sua saúde, o excesso pode levar à obesidade e provocar doenças associadas, como diabetes e hipertensão.</li>
+      <div></div>
+  </ul>     
+        <h1 class="display-6">Beba cerca de 2 litros de água por dia.</h1>
+        <ul>
+            <li>Beber um a dois copos de água antes de uma refeição também ajuda a controlar melhor seu apetite, reduzindo aquela tendência de comer mais que o necessário. Podendo ajudar a perder peso.</li> 
+            <li>Quanto menos água você bebe, mais seca fica a sua pele, já que ela funciona como um fator antienvelhecimento, reduzindo as rugas e mantendo a pele brilhante e sedosa.</li>  
+            <li>Menos água significa menor volume de sangue e menos circulação ao redor do cérebro. Como os níveis de cortisol (hormônio do estresse) diminuem devido à desidratação, os níveis de estresse tendem a aumentar.</li>
+            <div></div>
+        </ul> 
+        <h1 class="display-6">Reduza o consumo de bebidas alcoólicas.</h1>
+        <ul>
+            <li>O álcool é muito calórico e engorda. O valor médio da gordura concentrada ao redor da cintura é maior entre as que relataram beber socialmente.</li>  
+            <li>Ingerir bebida alcoólica com frequência pode caudar diversos tipos de câncer, cirrose, hipertenção, Infarto e AVC, Transtornos psiquiátricos etc... </li>
+            <li>o álcool libera adrenalina, que acelera a atividade do sangue no coração, aumentando a frequência dos batimentos cardíacos.</br>
+              <div></div>
+            </ul> 
+        <h1 class="display-6">Pratique exercícios no mínimo 3 vezes por semana.</h1>  
+        <ul>
+            <li>Exercitar-se por 30 minutos, no mínimo cinco vezes por semana, ajuda a reduzir o risco de doenças cardíacas, artrite, obesidade, diabetes e hipertensão.</li> 
+            <li>A prática de atividade física constante atua na preservação da massa muscular e da flexibilidade ao longo da vida, garantindo uma velhice ativa e independente. </li>  
+            <li>Quando você se exercita, o corpo libera endorfinas, substâncias que relaxam o corpo, aliviam as dores e geram de bem-estar. A ação do exercício físico na saúde mental é tão importante que ajuda a combater depressão e ansiedade.</li>
+            <div></div>
+        </ul>
+        <h1 class="display-6">Consulte um médico regularmente.</h1>
+          <ul>
+              <li> Faça consultas regulares com médicos de sua confiança, mesmo que não esteja sentindo nenhum tipo de desconforto.</li> 
+              <li>É essencial passar por um check-up completo, para realizar os exames laboratoriais de rotina e específicos à sua faixa etária.</li>  
+              <div></div>
+          </ul>
+        <h1 class="display-6">Beba cerca de 2 litros de água por dia.</h1>
+        <ul>
+            <li>70% do corpo é composto de água, ela é fundamental para o seu correto funcionamento. Sem hidratação adequada a produção de energia diminui.</li> 
+            <li>Tomar no mínimo 2 litros de água no dia ajuda a prevenir problemas renais, melhora a circulação sanguínea, o que pode amenizar o aspecto da celulite.</li>  
+            <li>Beber bastante água promove uma melhora no funcionamento dos intestinos e previne o inchaço e a retenção de líquidos </li>
+            <li>Tenha sempre uma garrafa por perto e hidrate-se!</br>
+              <div></div>
+            </ul>
+            <a class="btn btn-primary" href="#topo" role="button">Voltar ao topo</a>
+
+       <div class ="container-fluid"> 
+<h1 class="display-1" id= "Dicas de Exercícios"> Dicas de Exercícios </h1>
+<figure>
+    <div class="text-left">
+  <img src="images/agac.jpg" class="rounded" alt="Treino agachamento">
+    <figcaption>
+      Exercíos para fazer em casa.
+    </figcaption>
+  </figure>
+<p>Os exercícios para perder barriga são aqueles de média a alta intensidade, que aumentam os batimentos cardíacos e que fortalecem os músculos abdominais, pois isso ajuda na queima de gordura e contribui para um melhor contorno corporal.</p>  
+<ul>
+    <li>Burpee </li> 
+    <li>Bicicleta no ar  </li>  
+    <li>Escalador cruzado </li>
+    <li>Prancha</li>
+    <li>Abdominal reverso</li>
+    <li>Abdominal solo</li>
+    <li>Abdominal com os pés elevados</li>
+    <li>Posição de barco</li>
+    </ul>
+    <div>
+      <p>Além desses, outra excelente opção para tonificar o corpo e emagrecer são as lutas e artes marciais, que definem os músculos e melhoram a resistência e a força física.</p>
+    <div>
+      <p>É importante beber água entre os exercícios, usar roupas adequadas de ginástica e preparar o ambiente para a atividade, pois alguns movimentos podem precisar de um espaço maior para serem realizados.
+    <div></div>
+</ul>
+<a class="btn btn-primary" href="#topo" role="button">Voltar ao topo</a>
+<h1 class="display-1" id= "Dicas de Alimentação"> Dicas de Alimentação </h1>
+<figure>
+    <div class="text-left">
+  <img src="images/alim.jpg" class="rounded" alt="Alimentação saudável">
+    <figcaption>
+        Alimentação saudável.
+      </figcaption>
+    </figure>
+<p>Emagrecer de forma saudável é uma dura batalha para reduzir o volume de gordura corporal, tornando-o mais definido. A prática regular de atividades físicas é fundamental para você conseguir queimar gordura, mas alguns alimentos também podem te ajudar a alcançar seus objetivos.</p>
+<h1 class="display-6">Farelo de aveia.</h1>
+<ul>
+  <li>Alimentos ricos em fibras são digeridas mais lentamente, inibindo a produção de insulina. </li> 
+  <li>Os nutriente que ajuda no funcionamento do intestino e reduz a absorção de gordura e carboidratos. </li>  
+  <li>As fibras também aumentam a sensação de saciedade, fazendo a pessoa comer menos. </li>
+  <div></div>
+</ul>
+<h1 class="display-6">Banana</h1> 
+<ul>
+    <li>É rica em amido resistente, um nutriente que contribui para a saúde intestinal, promove saciedade e protege o coração.</li> 
+    <div></div>
+  </ul>
+<h1 class="display-6">Azeite extra virgem</h1> 
+<ul>
+    <li>É rico em gordura insaturada, que contribui para diminuir inflamações nas células e assim favorece o processo de perda de peso.</li>
+    <li>O consumo de azeite também diminui a velocidade da digestão dos carboidratos, contribuindo para manter o bom equilíbrio dos níveis de insulina, evitando que o organismo estoque mais gordura. </li>
+    <div></div>
+</ul>
+     <h1 class="display-6">Iogurte</h1> 
+<ul>
+    <li>Atua como um probiótico melhorando a saúde intestinal, o que pode desempenhar um papel importante na perda de gordura corporal.</li> 
+    <li>é uma ótima fonte de proteína e apresenta poucas calorias e carboidratos. Esses produtos estimulam a função digestiva saudável e ajudam a produzir vitamina B12, que auxilia na perda de peso. </li>
+  </ul>
+  <div></div>
+</ul>
+<h1 class="display-6">Frutas cítricas</h1> 
+<ul>
+    <li>São ricas em vitamina C, um poderoso antioxidante que atua diminuindo a absorção de gordura.</li> 
+    <li>Além disso contêm também a pectina, que potencializam a ação do organismo no bloqueio das gorduras. </li>
+    </li>
+  </ul>
+  <div></div>
+  <h1 class="display-6">Abacate</h1> 
+  <ul>
+    <li>Rico em gorduras monoinsaturadas (ácido oleico), capaz de reduzir a fome.</li>
+    <li>Possui glutationa, substância que equilibra o hormônio cortisol, relacionado ao estresse. </li>
+    <li>O abacate ainda é uma fonte de fibras e proteínas.</li>
+    <br></br>
+</ul>
+</div>
+
+          <a class="btn btn-primary" href="#topo" role="button">Voltar ao topo</a>
+      <div></div> 
+     
+        <footer class="footer bg-danger">
+                    <div class="container">
+                        <main>
+                            Sobre a página
+                          </main>
+            <br>
+                 <div>Página voltada à saúde.</div> 
+                 <div>CNPJ 00.000.000/0000-00 <d-block>
+                 <div>Desenvolvimento de Sistemas Baseado na Web</div>
+            <p>
+                <img src="images/mail.jpg"height="50px" id="mail"/>
+                </p>
+                <div>antonialuciene94@gmail.com</div>
+                <div>margaridacosta2207@gmail.com</div>
+                <div> sandraevneto@gmail.com</div>
+                <div>  saharasanara7@gmail.com</div>
+</footer>
+                <script type="text/javascript"src="js/bootstrap.bundle.min.js" >  
+</body>
+</html>
